@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
 
 export default function Home() {
   return (
@@ -63,7 +64,10 @@ export default function Home() {
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
-      </footer>
+      </footer>      
+      <TawkMessengerReact
+                propertyId="64f52d8ba91e863a5c116db5"
+                widgetId="1h9erjqtm"/>
     </div>
   )
 }
